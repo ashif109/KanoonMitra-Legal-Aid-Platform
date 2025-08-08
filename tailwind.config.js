@@ -18,12 +18,10 @@ module.exports = {
           800: '#9a3412',
           900: '#7c2d12',
         },
-        indian: {
-          blue: '#1e40af',
-          green: '#059669',
-          red: '#dc2626',
-          orange: '#ea580c',
-        }
+        'indian-blue': '#1e40af',
+        'indian-green': '#059669',
+        'indian-red': '#dc2626',
+        'indian-orange': '#ea580c',
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
