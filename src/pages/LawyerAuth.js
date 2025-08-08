@@ -198,7 +198,7 @@ const LawyerAuth = () => {
                   <input type="checkbox" className="rounded border-gray-300 text-indian-blue focus:ring-indian-blue" />
                   <span className="ml-2 text-sm text-gray-600">Remember me</span>
                 </label>
-                <a href="#" className="text-sm text-indian-blue hover:text-blue-700">
+                <a href="/forgot-password" className="text-sm text-indian-blue hover:text-blue-700">
                   Forgot password?
                 </a>
               </div>
@@ -391,11 +391,11 @@ const LawyerAuth = () => {
                 />
                 <span className="ml-2 text-sm text-gray-600">
                   I agree to the{' '}
-                  <a href="#" className="text-indian-blue hover:text-blue-700">
+                  <a href="/terms-of-service" className="text-indian-blue hover:text-blue-700">
                     Terms of Service
                   </a>{' '}
                   and{' '}
-                  <a href="#" className="text-indian-blue hover:text-blue-700">
+                  <a href="/privacy-policy" className="text-indian-blue hover:text-blue-700">
                     Privacy Policy
                   </a>
                 </span>
